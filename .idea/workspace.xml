@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/Exe_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/Exe_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exe_3">
-    <configuration name="Exe_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_2" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exe_8">
     <configuration name="Exe_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_3" />
       <module name="Exe_Recap_Java_11" />
@@ -79,19 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_6" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Exe_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_7" />
       <module name="Exe_Recap_Java_11" />
@@ -105,13 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exe_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_8" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics._2.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasics._2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_8" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Exe_3" />
         <item itemvalue="Application.Exe_4" />
         <item itemvalue="Application.Exe_7" />
-        <item itemvalue="Application.Exe_6" />
-        <item itemvalue="Application.Exe_2" />
       </list>
     </recent_temporary>
   </component>
