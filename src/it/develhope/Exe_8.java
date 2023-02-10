@@ -82,7 +82,7 @@ public class Exe_8 {
         int integerString = Integer.valueOf(startStr);
         integerString *= 2;
         String intergerAsAString = String.valueOf(integerString);
-        intergerAsAString += "10";
+        intergerAsAString += intergerAsAString;
         double doubleString = Double.valueOf(intergerAsAString);
         doubleString /= 3.5;
         System.out.println(Math.floor(doubleString));
