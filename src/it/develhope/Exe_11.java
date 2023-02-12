@@ -27,6 +27,14 @@ public class Exe_11 { public static void main(String[] args) {
                 orderCost = 2.50;
                 break;
             // Your cases here!
+            case "cheeseburger":
+                orderCalories = 850;
+                orderCost = 7.99;
+                break;
+            case "fries":
+                orderCalories = 250;
+                orderCost = 3.99;
+                break;
         }
 
         System.out.println("Order receipt:" +
@@ -53,6 +61,36 @@ public class Exe_11 { public static void main(String[] args) {
 
         int inputNumber = 17;
 
+        switch (inputNumber) {
+            case 2:
+                System.out.println("This is the 2nd largest prime number under 20");
+                break;
+            case 3:
+                System.out.println("This is the 3rd largest prime number under 20");
+                break;
+            case 5:
+                System.out.println("This is the 5th largest prime number under 20");
+                break;
+            case 7:
+                System.out.println("This is the 7th largest prime number under 20");
+                break;
+            case 11:
+                System.out.println("This is the 11th largest prime number under 20");
+                break;
+            case 13:
+                System.out.println("This is the 13th largest prime number under 20");
+                break;
+            case 17:
+                System.out.println("This is the 17th largest prime number under 20");
+                break;
+            case 19:
+                System.out.println("This is the 19th largest prime number under 20");
+                break;
+                default:
+                    System.out.println("Invalid entry");
+                    break;
+        }
+
         // Your switch statement here
     }
 
@@ -65,6 +103,15 @@ public class Exe_11 { public static void main(String[] args) {
      */
     public static void exercise3Bonus() {
         System.out.println("\nExercise 3 - Prime  numbers (Bonus)");
+
+        int inputNumber = 19;
+        switch (inputNumber) {
+            case 19:
+                System.out.println("Largest prime under 20");
+                break;
+            default:
+        }
+
 
         // Your switch statement here
     }
