@@ -1,5 +1,7 @@
 package it.develhope;
 
+import java.sql.SQLOutput;
+
 public class Exe_10 {
     public static void main(String[] args) {
         exercise1();
@@ -31,6 +33,9 @@ public class Exe_10 {
         boolean wearingShorts = true;
 
         // Write your code here
+        if (!(isWarm ^ wearingShorts)) {
+            System.out.println("Comfortable clothes");
+        } else System.out.println("uncomfortable clothes");
     }
 
     /**
@@ -46,11 +51,13 @@ public class Exe_10 {
         System.out.println("\nExercise 2 - Club Bouncer:");
         String shoeType = "fancy";
 
-
-
         int age = 30;
         double eurosInPocket = 7.5;
         double eurosForEntry = 10;
+
+        if (age >= 18 && eurosInPocket >= eurosForEntry && shoeType == "fancy") {
+            System.out.println("come in");
+        } else System.out.println("Stay out");
 
         // Write your code here
     }
@@ -74,6 +81,19 @@ public class Exe_10 {
         double maxTestScore = 10;
         boolean isTestRetry = true;
         //Write your code here
+        if (ourTestScore >= maxTestScore * 0.9) {
+            System.out.println("A");
+        } else if (ourTestScore >= maxTestScore * 0.8) {
+            System.out.println("B");
+        } else if (ourTestScore >= maxTestScore * 0.7) {
+            System.out.println("C");
+        } else if (ourTestScore >= maxTestScore * 0.6) {
+            System.out.println("D");
+        } else if (ourTestScore < maxTestScore * 0.6) {
+            System.out.println("F");
+        } else if (isTestRetry) {
+            System.out.println("c");
+        } else {}
     }
 
 
@@ -91,5 +111,8 @@ public class Exe_10 {
         boolean carIsDrivingFromRightToLeft = false;
 
         //Write your code here
+        if (carIsDrivingFromLeftToRight ^ carIsDrivingFromRightToLeft) {
+            System.out.println("safe");
+        } else System.out.println("CRASH!");
     }
 }
