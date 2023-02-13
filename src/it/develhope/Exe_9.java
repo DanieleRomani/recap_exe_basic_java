@@ -91,14 +91,14 @@ public class Exe_9 {
     private static void exercise4() {
         System.out.println("\nExercise 4:");
 
-        int employeeAge = 34;
+        int employeeAge = 64;
         if (employeeAge >= 65) {
-            System.out.println("Retired");}
-        else if (employeeAge <= 65) {
-            System.out.println("Experienced Worker");}
-        else if (employeeAge <= 35) {
-            System.out.println("New Worker");}
-        else System.out.println("School age");
+            System.out.println("Retired");
+        } else if (employeeAge >= 35) {
+            System.out.println("Experienced Worker");
+        } else if (employeeAge >= 18) {
+            System.out.println("New Worker");
+        } else {System.out.println("School age");}
         //Write your if statement here
     }
 }
