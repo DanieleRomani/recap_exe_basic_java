@@ -65,11 +65,10 @@ public class Exe_2 {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        int celsius = 20;
-        double celsius2 = 1.8 + 32;
-        int fahrenheit = (int) (celsius * celsius2);
+        double celsius = 20;
+        double fahrenheit = (celsius * 1.8) + 32;
+
         System.out.println(celsius);
-        System.out.println(celsius2);
         System.out.println(fahrenheit);
         // Write your code here
     }
