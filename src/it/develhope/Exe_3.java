@@ -14,7 +14,7 @@ public class Exe_3 {
     private static void exercise1() {
         System.out.println("Exercise 1:");
 
-        String first = "D" ;
+        String first = "D";
         System.out.print(first);
 
         String second = "R" ;
@@ -59,6 +59,10 @@ public class Exe_3 {
         System.out.print("My favourite letter=");
         System.out.println(favouriteLetter);
         // Write your code here
+
+        char favouriteLetter2 = 68;
+        System.out.print("My favourite letter=");
+        System.out.println(favouriteLetter2);
     }
 
 
