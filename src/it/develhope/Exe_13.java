@@ -21,7 +21,7 @@ public class Exe_13 {
          */
         public static void exercise1() {
             System.out.println("Exercise 1:");
-            ArrayList<Integer> numbers = new ArrayList<>();
+            //ArrayList<Integer> numbers = new ArrayList<>(2,4,6,8,10,12,14,16);
 
             //Write your code here
         }

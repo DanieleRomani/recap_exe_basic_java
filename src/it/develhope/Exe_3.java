@@ -61,8 +61,8 @@ public class Exe_3 {
         // Write your code here
 
         char favouriteLetter2 = 68;
-        System.out.print("My favourite letter=");
-        System.out.println(favouriteLetter2);
+        System.out.print("My favourite letter=" + favouriteLetter2);
+
     }
 
 
