@@ -22,12 +22,15 @@ public class Exe_15 {
         int yearsPast = 0;
         double interestGainedThisYearEuros = 0;
 
-        while (true) {
-            System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
-                    ", interest this year €" + interestGainedThisYearEuros);
-            double previousYearsInvestment = currentInvestmentValueEuros;
-            currentInvestmentValueEuros = currentInvestmentValueEuros * perYearMultiplier;
-            interestGainedThisYearEuros = currentInvestmentValueEuros - previousYearsInvestment;
+        while (currentInvestmentValueEuros < 100_000){
+            // while (currentInvestmentValueEuros < 15000 || yearsPast < 5){
+                //        while (true){
+                System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
+                        ", interest this year €" + interestGainedThisYearEuros);
+                double previousYearsInvestment = currentInvestmentValueEuros;
+                currentInvestmentValueEuros = currentInvestmentValueEuros * perYearMultiplier;
+                interestGainedThisYearEuros = currentInvestmentValueEuros - previousYearsInvestment;
+            }
         }
     }
 
@@ -57,8 +60,18 @@ public class Exe_15 {
         int remainingPoundsToSell = 10_000;
         int maxPoundsToSellPerDay = 1_000;
 
-        // Write your while loop here
+        //
+        while (remainingPoundsToSell > 0) {
+            daysToSell++;
+            poundToEuroExchangeRate = 1 + (Math.random() * 0.2);
 
+            if (poundToEuroExchangeRate > 1.15) {
+                int poundsToSell = Math.min(maxPoundsToSellPerDay, remainingPoundsToSell);
+                double eurosReceived = poundsToSell * poundToEuroExchangeRate;
+                remainingPoundsToSell -= poundsToSell;
+            }
+        }
+                // Write your while loop here
         System.out.println("It took " + daysToSell + " to exit that cursed economy");
     }
 
@@ -70,17 +83,19 @@ public class Exe_15 {
      * A Example: fori
      *
      * Q1: A user inputs their actions into an ATM, they can withdraw, deposit, check balance or exit. What loop should we use?
-     * A1: Do while loop: diagramma di flusso -> do -> statement -> condition -> return to statement in true condition
+     * A1: Do While Loop: diagramma di flusso -> do -> statement -> condition -> return to statement in true condition
      * A1:                                                                    -> go exit in false condition
-     * A1:
+     * A1:We want to execute the user's selected action at least once before checking if they want to exit.
      *
      * Q2: We have a list of 1000 users to send emails to
-     * A2: for i
+     * A2: For Loop because we want to iterate through the list of users a fixed number of times (1000 times in this case)
+     * A2: in order to send an email to each user.
      *
      * Q3: We want to print out the first 80 customer names from our bank database
-     * A3: while
+     * A3: While Loop because the number of iterations is not fixed
      *
      * Q4: We want to read a file 100 lines at a time, without loading the full file into our program
-     * A4: do while
+     * A4: Do While because we want to execute the code that reads 100 lines of the file at least once
+     * A$: before checking if there are more lines to read.
      */
 }
