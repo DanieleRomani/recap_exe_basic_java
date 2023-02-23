@@ -21,8 +21,22 @@ public class Exe_13 {
          */
         public static void exercise1() {
             System.out.println("Exercise 1:");
-            //ArrayList<Integer> numbers = new ArrayList<>(2,4,6,8,10,12,14,16);
-
+            ArrayList<Integer> numbers = new ArrayList<>(9);
+            numbers.add(1);
+            numbers.add(2);
+            numbers.add(3);
+            numbers.add(4);
+            numbers.add(5);
+            numbers.add(6);
+            numbers.add(7);
+            numbers.add(8);
+            System.out.println(numbers);
+            System.out.println(numbers.get(0));
+            numbers.remove(0);
+            numbers.remove(1);
+            numbers.remove(2);
+            System.out.println(numbers);
+//
             //Write your code here
         }
 
@@ -40,10 +54,24 @@ public class Exe_13 {
          */
         public static void exercise2() {
             System.out.println("\nExercise 1:");
+            ArrayList<String> menuItems = new ArrayList<>();
+            menuItems.add("Pizza");
+            menuItems.add("Olive Ascolane");
+            menuItems.add("french fries");
+            ArrayList<Double> menuPrices = new ArrayList<>();
+            menuPrices.add(8.50);
+            menuPrices.add(3.50);
+            menuPrices.add(3.50);
+            System.out.println(menuItems.get(0)+ ": " + menuPrices.get(0));
+            System.out.println(menuItems.get(1)+ ": " + menuPrices.get(1));
+            System.out.println(menuItems.get(2)+ ": " + menuPrices.get(2));
             //Write your code here
         }
 
-        /**
+    public Exe_13() {
+    }
+
+    /**
          * 3: I changed this to an int array after recording!
          * <p>
          * You'll still need to find the total but using [index] instead of .get(index)
@@ -58,6 +86,11 @@ public class Exe_13 {
             System.out.println("\nExercise 3:");
             int[] items = new int[]{5, 10404, -234348, -53, 9, 91, 92, 34534, 12334, 1435};
 
+            int total = 0;
+            for (int i = 0; i < items.length; i++) {
+                total += items[i];
+            }
+            System.out.println("total sum:" + total);
             //Write your code here
         }
 }
