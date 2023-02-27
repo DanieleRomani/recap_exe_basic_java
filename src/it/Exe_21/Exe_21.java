@@ -16,13 +16,13 @@ public class Exe_21 {
     public static void exercise1() {
         System.out.println("Exercise 1:");
         int totalCount = 0;
-        int luckyRolls = 0;
+
         for (int i = 0; i < 100; i++) {
+            int luckyRolls = 0;
             while (rollD6() == 6) {
                 luckyRolls++;
             }
             totalCount += luckyRolls;
-            luckyRolls = 0;
         }
 
         System.out.println(totalCount);

@@ -45,7 +45,15 @@ public class Exe_20 {
         System.out.println("\nExercise 2:");
 
         //Write your code here
-
+        Student student = new Student();
+        student.setName("Giulio");
+        student.setSurname("Pastore");
+        student.setAge(18);
+        student.setBirthDate(30);
+        student.setMonthBirthDay(11);
+        System.out.println("Name = " + student.getName() + " Surname = " + student.getSurname() + " Student age = " +
+                student.getAge() + " Day Birthday = " + student.getBirthDate() + " Mounth Birthday = " +
+                student.getMonthBirthDay());
 
     }
 }
