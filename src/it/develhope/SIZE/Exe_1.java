@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.SIZE;
 
 public class Exe_1 {
     //Run this like before to execute all the exercises

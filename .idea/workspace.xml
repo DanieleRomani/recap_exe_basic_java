@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/Exe_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/exe18/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/exe18/Exe_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/exe18/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exe_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +59,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exe_17">
-    <configuration name="Exe_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_13" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.exe18" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Exe_18">
+    <configuration name="Exe_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.SIZE.Exe_1" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exe_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_14" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.SIZE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +79,11 @@
       </method>
     </configuration>
     <configuration name="Exe_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_15" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.SIZE.Exe_15" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.SIZE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="Exe_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_16" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.SIZE.Exe_16" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.SIZE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +105,24 @@
       </method>
     </configuration>
     <configuration name="Exe_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.Exe_17" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.SIZE.Exe_17" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.SIZE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exe_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.exe18.Exe_18" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.exe18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_18" />
+        <item itemvalue="Application.Exe_1" />
         <item itemvalue="Application.Exe_17" />
         <item itemvalue="Application.Exe_16" />
         <item itemvalue="Application.Exe_15" />
-        <item itemvalue="Application.Exe_14" />
-        <item itemvalue="Application.Exe_13" />
       </list>
     </recent_temporary>
   </component>

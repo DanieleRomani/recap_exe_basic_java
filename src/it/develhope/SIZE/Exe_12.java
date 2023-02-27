@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.SIZE;
 
 public class Exe_12 {
     public static void main(String[] args) {

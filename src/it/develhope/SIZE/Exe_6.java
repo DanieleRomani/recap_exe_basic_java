@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.SIZE;
 
 public class Exe_6 {
         // Don't forget to use comments to clear things up if you need them!

@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.SIZE;
 
 import java.util.Arrays;
 import java.util.List;
