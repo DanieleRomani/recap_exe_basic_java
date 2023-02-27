@@ -32,7 +32,7 @@ public class Exe_15 {
                 interestGainedThisYearEuros = currentInvestmentValueEuros - previousYearsInvestment;
             }
         }
-    }
+
 
     /**
      * 2: Write a while loop for our trading bot!
@@ -83,7 +83,7 @@ public class Exe_15 {
      * A Example: fori
      *
      * Q1: A user inputs their actions into an ATM, they can withdraw, deposit, check balance or exit. What loop should we use?
-     * A1: Do While Loop: diagramma di flusso -> do -> statement -> condition -> return to statement in true condition
+     * A1: Do hile loop: diagramma di flusso -> do -> statement -> condition -> return to statement in true condition
      * A1:                                                                    -> go exit in false condition
      * A1:We want to execute the user's selected action at least once before checking if they want to exit.
      *
@@ -99,3 +99,4 @@ public class Exe_15 {
      * A$: before checking if there are more lines to read.
      */
 }
+
