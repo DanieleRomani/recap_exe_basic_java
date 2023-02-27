@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/exe19/Exe_19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/exe19/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_20/Exe_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_20/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +46,9 @@
       <recent name="it.exe18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_19">
+  <component name="RunManager" selected="Application.Exe_20">
     <configuration name="Exe_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.SIZE.Exe_1" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.SIZE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exe_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.SIZE.Exe_16" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exe_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_20.Exe_20" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Exe_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_20" />
         <item itemvalue="Application.Exe_19" />
         <item itemvalue="Application.Exe_18" />
         <item itemvalue="Application.Exe_1" />
         <item itemvalue="Application.Exe_17" />
-        <item itemvalue="Application.Exe_16" />
       </list>
     </recent_temporary>
   </component>
