@@ -33,7 +33,7 @@ public class Student {
         return birthDate;
     }
 
-    public void setBirthDate(int birthDate) {
+     public void setBirthDate(int birthDate) {
         if (birthDate <= 0 && birthDate > 31 ) {
             System.out.println("invalidDate");
         }
