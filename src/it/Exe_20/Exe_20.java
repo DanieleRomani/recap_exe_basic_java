@@ -48,7 +48,7 @@ public class Exe_20 {
         Student student = new Student();
 
         student.setName(""); ;
-        student.setAge(-34);
+        student.setAge(135);
         student.setBirthDate(32);
 
         System.out.println("Name = " + student.getName() + " Student age = " +

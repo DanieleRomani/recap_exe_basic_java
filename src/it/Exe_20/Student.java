@@ -24,7 +24,7 @@ public class Student {
     }
 
     public void setAge(int age) {
-        if (age < 0 ) {
+        if (age < 0) {
             System.out.println("Invalid age");
             return;
         }

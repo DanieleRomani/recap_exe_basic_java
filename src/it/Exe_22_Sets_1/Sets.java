@@ -27,7 +27,13 @@ public class Sets {
         // Add some numbers using the add method
         // Your code
 
-        if (ourSet.containsAll(Set.of(1, 1, 5, 2, 1))) {
+        ourSet.add(1);
+        ourSet.add(1);
+        ourSet.add(5);
+        ourSet.add(2);
+        ourSet.add(1);
+
+        if (ourSet.containsAll(Set.of(5, 2, 1))) {
             System.out.println("1a. Set contains all numbers");
         } else {
             System.out.println("1a. Set does not contain all numbers");
@@ -37,6 +43,7 @@ public class Sets {
 
         // Remove the element '1'
         // Your code
+        ourSet.remove(1);
 
         System.out.println(ourSet);
 
@@ -63,14 +70,14 @@ public class Sets {
 
         fruitsSet.addAll(fruitsSet);
 
-        //2a. What will this output? [Write your guesses in here]
+        //2a. What will this output? [my output is: banana,orange,apple,kiwi,mango in no particular order because Set]
         System.out.println(fruitsSet);
 
         List<String> fruitsList = List.of("apple", "banana", "grapes", "pear", "mango");
 
         fruitsSet.addAll(fruitsList);
 
-        //2b. What will this output? [Write your guesses in here]
+        //2b. What will this output? [my output is: Banana,orange,apple,kiwi,pear,mango,grapes in no particular order because List]
         System.out.println(fruitsSet);
     }
 
@@ -85,6 +92,8 @@ public class Sets {
 
 
         for (Integer number : numbers) {
+            max = Math.max (max, number);
+            min = Math.min (min, number);
             // Your code
         }
 
@@ -99,6 +108,11 @@ public class Sets {
         Set<Integer> itemsContainedInBothSets = new HashSet<>();
 
         // Your code
+        for (Integer item : setA) {
+            if (setB.contains(item)) {
+                System.out.println(itemsContainedInBothSets.add(item));
+            }
+        }
 
         if (!itemsContainedInBothSets.equals(Set.of(5, 6, 7, 8, 9, 10))) {
             System.out.println("3b. Incorrect number of items in itemsContainedInBothSets");
@@ -118,7 +132,14 @@ public class Sets {
         //     you can use `break;` to exit the loop once you've found it!
         int min = Integer.MAX_VALUE;
         // Your code
-
+        for (int num : orderedNumbers) {
+            if (num < min) {
+                min = num;
+                if (min == 1) {
+                    break;
+                }
+            }
+        }
         if (min != 1) {
             System.out.println("4a. Incorrect min value");
         } else {
