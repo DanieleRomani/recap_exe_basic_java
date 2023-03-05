@@ -47,12 +47,17 @@ public class Exe_20 {
         //Write your code here
         Student student = new Student();
 
-        student.setName("Daniele"); ;
-        student.setAge(34);
-        student.setBirthDate(18);
+        student.setName(""); ;
+        student.setAge(-34);
+        student.setBirthDate(32);
 
         System.out.println("Name = " + student.getName() + " Student age = " +
                 student.getAge() + " Day Birthday = " + student.getBirthDate());
 
     }
 }
+//"Correzione 2: ok il controllo nei due setter, ma vorrei che, qualora si passasse un'età o un nome non valido al setter, " +
+//        "questo stampasse un errore e "non settasse il valore dell'attributo sempre e comunque". Ad esempio, con la classe che hai
+//        implementato tu, se io eseguissi le istruzioni sotto, avrei un'età di -32 per l'oggetto student, il che ovviamente è sbagliato!
+//        Student student = new Student();
+//        student.setName("Daniele"); ; student.setAge(-32);

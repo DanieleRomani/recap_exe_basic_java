@@ -14,9 +14,9 @@ public class Student {
     public void setName(String name) {
         if (name == null) {
             System.out.println("invalid name");
+            return;
         }
         this.name = name;
-
     }
 
     public int getAge() {
@@ -25,7 +25,9 @@ public class Student {
 
     public void setAge(int age) {
         if (age < 0 ) {
-            System.out.println("Invalid age");}
+            System.out.println("Invalid age");
+            return;
+        }
         this.age = age;
     }
 
@@ -34,8 +36,9 @@ public class Student {
     }
 
      public void setBirthDate(int birthDate) {
-        if (birthDate <= 0 && birthDate > 31 ) {
-            System.out.println("invalidDate");
+        if (birthDate < 1 || birthDate > 31 ) {
+            System.out.println("invalid Date");
+        return;
         }
         this.birthDate = birthDate;
     }
