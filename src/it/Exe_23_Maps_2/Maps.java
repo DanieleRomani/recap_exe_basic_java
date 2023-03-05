@@ -16,12 +16,18 @@ public class Maps {
     private static void exercise1() {
         // 1a. Create a map of integers to strings
         Map<Integer, String> myFirstMap = new HashMap<>();
-
         // 1b. Add 3 elements to the map .put
+        myFirstMap.put(1, "Gianpaolo");
+        myFirstMap.put(2, "Daniele");
+        myFirstMap.put(3, "Michael");
         // 1c. Print the map
+        System.out.println(myFirstMap);
         // 1d. Access an element in the map with .get
+        System.out.println(myFirstMap.get(2));
         // 1e. Remove an element from the map .remove
+        System.out.println(myFirstMap.remove(3));
         // 1f. Print the map again to confirm the element was removed
+        System.out.println(myFirstMap);
     }
 
     /**
@@ -42,6 +48,13 @@ public class Maps {
         //     to do so
 
         // Your code
+        double cost = 0;
+         for (Map.Entry<String, Double> entry : menuCostsInEuro.entrySet()) {
+             if (entry.getValue() > cost) {
+                 cost = entry.getValue();
+                 mostExpensiveMenuItemName = entry.getKey();
+             };
+         }
 
         if (mostExpensiveMenuItemName.equals("Pizza")) {
             System.out.println("2a. Correct!");
@@ -69,6 +82,9 @@ public class Maps {
         // 3a. Use a for loop with fruitWeights.values() and sum up the total weight
 
         // Your code
+        for (Integer entry : fruitWeights.values()) {
+            totalWeight += entry;
+        }
 
         if (totalWeight == fruitWeights.values().stream().mapToInt(Integer::intValue).sum()) {
             System.out.println("3. Correct!");
