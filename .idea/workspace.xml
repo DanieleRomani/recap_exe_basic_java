@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_23_Maps_2/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_23_Maps_2/Maps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_24_Collection_3/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_24_Collection_3/Collection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +45,13 @@
       <recent name="it.exe18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Maps">
-    <configuration name="Exe_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.exe19.Exe_19" />
+  <component name="RunManager" selected="Application.Collection">
+    <configuration name="Collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Collection" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.exe19.*" />
+          <option name="PATTERN" value="it.Exe_24_Collection_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collection" />
         <item itemvalue="Application.Maps" />
         <item itemvalue="Application.Sets" />
         <item itemvalue="Application.Exe_20" />
         <item itemvalue="Application.Exe_21" />
-        <item itemvalue="Application.Exe_19" />
       </list>
     </recent_temporary>
   </component>
