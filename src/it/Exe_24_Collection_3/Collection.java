@@ -40,14 +40,14 @@ public class Collection {
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-        System.out.println(toSet(list));
-        System.out.println(toSet(set));
+        // System.out.println(toSet(list));
+        // System.out.println(toSet(set));
     }
 
     // Write your method for exercise 2 here
-    public static Set<String> convertToSet(Collection<String> collection) {
-        return new HashSet<>(collection);
-    }
+    //public static Set<String> convertToSet(Collection<String> collection) {
+    //   return new HashSet<>(collection);
+    //}
 
 
     /**
@@ -118,5 +118,4 @@ public class Collection {
      *    12 - You want to store the songs in a music streaming service, along with their artists and album names.
      *    Answer: TreeList
      */
-
 }

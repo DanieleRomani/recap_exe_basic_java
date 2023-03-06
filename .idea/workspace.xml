@@ -45,7 +45,7 @@
       <recent name="it.exe18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collection">
+  <component name="RunManager" selected="Application.Sets">
     <configuration name="Collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Collection" />
       <module name="Exe_Recap_Java_11" />
@@ -113,9 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sets" />
         <item itemvalue="Application.Collection" />
         <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.Sets" />
         <item itemvalue="Application.Exe_20" />
         <item itemvalue="Application.Exe_21" />
       </list>

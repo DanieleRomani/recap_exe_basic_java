@@ -92,9 +92,13 @@ public class Sets {
 
 
         for (Integer number : numbers) {
-            max = Math.max (max, number);
-            min = Math.min (min, number);
             // Your code
+            if (number > max) {
+                max = number;
+            }
+            if (number < min) {
+                min = number;
+            }
         }
 
         if (max != 10 || min != 1) {
