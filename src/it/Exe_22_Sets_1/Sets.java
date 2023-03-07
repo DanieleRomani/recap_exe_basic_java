@@ -87,9 +87,8 @@ public class Sets {
     private static void exercise3() {
         // 3a. Find the min and max values in the Set below
         Set<Integer> numbers = Set.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        int max = Integer.MAX_VALUE;
-        int min = Integer.MIN_VALUE;
-
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
         for (Integer number : numbers) {
             // Your code
@@ -100,10 +99,15 @@ public class Sets {
                 min = number;
             }
         }
-
+        // Riga di controllo
+        // System.out.println("min value is= " + min + " " + "max value is= " + max);
         if (max != 10 || min != 1) {
             System.out.println("3a. Incorrect min or max values");
         }
+//  "Hai modificato solamente l'implementazione del calcolo del min/max. Quella parte era corretta anche prima. " +
+//  "Ciò che non è corretto è l'inizializzazione alla riga 90/91. Prova a stampare il min e il max calcolato per capire cosa " +
+//  "sta succedendo ( mettiti alla riga 103) oppure leggi cosa ti sta dicendo IntelliJ sulle condizioni degli if." +
+//  " Se hai dubbi scrivimi su discord C'è un errore nell'es3. Controlla le inizializzazioni di min e max alla riga 90/91"
 
         // 3b. Find which items from set a are also in set b, add these to itemsContainedInBothSets
         //     use the `contains` method and "nested" for loop
