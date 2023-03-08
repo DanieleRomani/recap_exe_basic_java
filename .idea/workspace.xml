@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_25_Reading_and_Writing_4/Exe_25_Reading_and_Writing_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_22_Sets_1/Sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_22_Sets_1/Sets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Utente/Desktop/DevelhopeExercises",
@@ -45,7 +46,7 @@
       <recent name="it.exe18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sets">
+  <component name="RunManager" selected="Application.Exe_25_Reading_and_Writing_4">
     <configuration name="Collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Collection" />
       <module name="Exe_Recap_Java_11" />
@@ -72,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_21.Exe_21" />
+    <configuration name="Exe_25_Reading_and_Writing_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_25_Reading_and_Writing_4.Exe_25_Reading_and_Writing_4" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_21.*" />
+          <option name="PATTERN" value="it.Exe_25_Reading_and_Writing_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_25_Reading_and_Writing_4" />
         <item itemvalue="Application.Sets" />
         <item itemvalue="Application.Collection" />
         <item itemvalue="Application.Maps" />
         <item itemvalue="Application.Exe_20" />
-        <item itemvalue="Application.Exe_21" />
       </list>
     </recent_temporary>
   </component>
