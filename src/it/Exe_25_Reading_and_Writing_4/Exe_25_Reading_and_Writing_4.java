@@ -99,10 +99,11 @@ public class Exe_25_Reading_and_Writing_4 {
         List<String> words = new ArrayList<String>(List.of(Files.readString(MY_PATH).split("")));
         try {
             int count = 0;
-            for (int i = 0; i <MY_PATH.toString().length(); i++) {
+            for (int i = 0; i <= MY_PATH.toString().length(); i++) { // <= for count my words
                 count ++;
             }
             System.out.println(count);
+            Files.delete(MY_PATH); // delete my file txt
             // Your code here
         } catch (Exception exception) {
             System.err.println("There was an error!");
@@ -121,13 +122,19 @@ public class Exe_25_Reading_and_Writing_4 {
 
         try {
             // Your code
-            Files.createDirectories(myDirectoryPath);
-            Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");
-            System.out.println(Files.readString(PATH_IN_A_FOLDER));
+           if (!Files.exists(myDirectoryPath)) {                // se la directory non esiste crea la directory (Path)
+               Files.createDirectory(myDirectoryPath);
+           }
+           //Path myFilePath = myDirectoryPath.resolve("myfile.txt");           // resolve ricrea il percorso.
+           Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");    // (myFilePath)
+           System.out.println(Files.readString(PATH_IN_A_FOLDER));
+
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
             System.exit(0);
         }
     }
+// Pair whith Valerio Corallini and Marco Astesana
+
 }
