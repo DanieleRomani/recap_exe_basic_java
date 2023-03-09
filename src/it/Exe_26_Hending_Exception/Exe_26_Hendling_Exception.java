@@ -37,7 +37,7 @@ public class Exe_26_Hendling_Exception {
         // Your code here
             String userInputFileName = "test-file.txt";
         try {
-            FileReader reader = new FileReader(userInputFileName);
+            FileReader fileReader = new FileReader(userInputFileName);
         } catch (FileNotFoundException e) {
             System.out.println("Exception: " + e.getMessage());
         }

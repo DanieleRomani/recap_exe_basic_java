@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_26_Hending_Exception/Exe_26_Hendling_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_26_Hending_Exception/Exe_26_Hendling_Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_26_Hending_Exception/Exe_26_Hendling_Exception.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
