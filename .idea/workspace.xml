@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_26_Hending_Exception/Exe_26_Hendling_Exception.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydirectory/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mydirectory/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_25_Reading_and_Writing_4/Exe_25_Reading_and_Writing_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_25_Reading_and_Writing_4/Exe_25_Reading_and_Writing_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Utente/Desktop/DevelhopeExercises",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utente/Desktop/DevelhopeExercises&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="it.exe18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_25_Reading_and_Writing_4">
+  <component name="RunManager" selected="Application.Exe_26_Hendling_Exception">
     <configuration name="Collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Collection" />
       <module name="Exe_Recap_Java_11" />
@@ -62,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_20.Exe_20" />
+    <configuration name="Exe_25_Reading_and_Writing_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_25_Reading_and_Writing_4.Exe_25_Reading_and_Writing_4" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_20.*" />
+          <option name="PATTERN" value="it.Exe_25_Reading_and_Writing_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_25_Reading_and_Writing_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_25_Reading_and_Writing_4.Exe_25_Reading_and_Writing_4" />
+    <configuration name="Exe_26_Hendling_Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_26_Hending_Exception.Exe_26_Hendling_Exception" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_25_Reading_and_Writing_4.*" />
+          <option name="PATTERN" value="it.Exe_26_Hending_Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_26_Hendling_Exception" />
         <item itemvalue="Application.Exe_25_Reading_and_Writing_4" />
         <item itemvalue="Application.Sets" />
         <item itemvalue="Application.Collection" />
         <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.Exe_20" />
       </list>
     </recent_temporary>
   </component>
