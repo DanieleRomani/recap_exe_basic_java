@@ -3,7 +3,7 @@ package it.Exe_Rip_1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClassCours {
+public class Cours {
     /**
      * Progettare una classe Corso che permetta di memorizzare:
      * - Nome del corso
@@ -28,12 +28,12 @@ public class ClassCours {
 
     private String courseClass;
     private int credits;
-    private List<ClassStudent> students;
+    private List<Student> students;
 
-    public ClassCours(String courseClass, int credits) {
+    public Cours(String courseClass, int credits) {
         this.courseClass = courseClass;
         this.credits = credits;
-        this.students = new ArrayList<ClassStudent>();
+        this.students = new ArrayList<Student>();
     }
 
     public String getCourseClass() {
@@ -52,11 +52,11 @@ public class ClassCours {
         this.credits = credits;
     }
 
-    public List<ClassStudent> getStudents() {
+    public List<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(List<ClassStudent> students) {
+    public void setStudents(List<Student> students) {
         this.students = students;
     }
 
@@ -64,11 +64,11 @@ public class ClassCours {
         System.out.println(students);
     }
 
-    public void addStudent(ClassStudent student) {
+    public void addStudent(Student student) {
         students.add(student);
     }
 
-    public static void totalCredits(List<ClassCours> courses) {
+    public static void totalCredits(List<Cours> courses) {
         int total = 0;
 
         for (int i = 0; i < courses.size(); i++) {
@@ -77,14 +77,14 @@ public class ClassCours {
         System.out.println(total);
     }
 
-    public boolean present(ClassStudent student) {
+    public boolean present(Student student) {
         return students.contains(student);
     }
 
-    public static List<ClassStudent> search(List<ClassStudent> students, String keySearch) {
+    public static List<Student> search(List<Student> students, String keySearch) {
 
-        List<ClassStudent> result = new ArrayList<ClassStudent>();
-        for (ClassStudent student : students) {
+        List<Student> result = new ArrayList<Student>();
+        for (Student student : students) {
             String fullName = student.getName() + " " + student.getCognome();
             if (fullName.toLowerCase().contains(keySearch.toLowerCase())){
                 result.add(student);

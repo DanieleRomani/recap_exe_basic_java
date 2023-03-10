@@ -18,17 +18,17 @@ public class Main {
      * corso.
      */
     public static void main(String[] args) {
-        List<ClassStudent> students = new ArrayList<>();
+        List<Student> students = new ArrayList<>();
 
-        ClassStudent mario = new ClassStudent("mario", "rossi", 25, "via le man dal c");
-        ClassStudent franco = new ClassStudent("franco", "bianchi",22,"via le man dal m");
-        ClassStudent ciccio = new ClassStudent();
+        Student mario = new Student("mario", "rossi", 25, "via cesari");
+        Student franco = new Student("franco", "bianchi",22,"via cesari");
+        Student ciccio = new Student();
         ciccio.setName("ciccio");
         ciccio.setCognome("DAJJJE");
-        ciccio.setIndirizzo("via le man dal cul");
+        ciccio.setIndirizzo("via cesari");
         ciccio.setNumMatricola(29);
-        ClassCours a = new ClassCours("A", 10);
-        ClassCours b = new ClassCours("B", 16);
+        Cours a = new Cours("A", 10);
+        Cours b = new Cours("B", 16);
 
         students.add(mario);
         students.add(ciccio);
@@ -41,16 +41,16 @@ public class Main {
         b.addStudent(ciccio);
         b.printStudent();
 
-        ClassCours c = new ClassCours("C", 16);
+        Cours c = new Cours("C", 16);
 
-        List<ClassCours> courses = new ArrayList<ClassCours>();
+        List<Cours> courses = new ArrayList<Cours>();
         courses.add(c);
         courses.add(b);
         courses.add(a);
 
-        ClassCours.totalCredits(courses);
+        Cours.totalCredits(courses);
 
-        ClassStudent gennaro = new ClassStudent("Gennaro", "bullo", 12, "via le man dal cul");
+        Student gennaro = new Student("Gennaro", "bullo", 12, "via cesari");
         c.addStudent(gennaro);
         c.printStudent();
 
@@ -60,7 +60,7 @@ public class Main {
         System.out.println(b.present(gennaro));
         System.out.println(c.present(gennaro));
 
-        List<ClassStudent> studentiCercati = ClassCours.search(students, "u");
+        List<Student> studentiCercati = Cours.search(students, "u");
         System.out.println(studentiCercati);
     }
 }

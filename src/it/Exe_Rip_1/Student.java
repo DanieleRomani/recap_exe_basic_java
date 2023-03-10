@@ -1,6 +1,6 @@
 package it.Exe_Rip_1;
 
-public class ClassStudent {
+public class Student {
     /**
      * Progettare una classe Studente con i seguenti attributi privati:
      * - Num. Matricola
@@ -17,7 +17,7 @@ public class ClassStudent {
     private String cognome;
     private String indirizzo;
 
-    public ClassStudent(String name, String cognome, int numMatricola, String indirizzo) {
+    public Student(String name, String cognome, int numMatricola, String indirizzo) {
         this.name = name;
         this.numMatricola = numMatricola;
         this.cognome = cognome;
@@ -34,7 +34,7 @@ public class ClassStudent {
                 '}';
     }
 
-    public ClassStudent(){
+    public Student(){
 
     }
 
