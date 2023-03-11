@@ -14,6 +14,7 @@ public class Exe_27_Enums_6 {
     private enum YouCanUseClassLocalEnumsLikeThis {
         THIS_CAN_ONLY_BE_ACCESSED_IN_THIS_CLASS,
         THIS_TOO
+
     }
 
     /**

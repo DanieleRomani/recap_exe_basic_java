@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_Rip_2/CorsoDiLaurea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_Rip_2/Exe_Rip2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_Rip_2/Studente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_28_Junit/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_28_Junit/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_Rip_4/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_Rip_4/Concessionaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_Rip_4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exe_Recap_Java_11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exe_Recap_Java_11.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/ClassCours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_1/Cours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/ClassStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +42,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Utente/Desktop/RistoranteTeam3Java11",
@@ -50,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.Exe_28_Junit" />
       <recent name="it.Exe_27_Enums" />
       <recent name="it.exe18" />
     </key>
@@ -57,33 +62,7 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_27_Enums_6">
-    <configuration name="Exe_25_Reading_and_Writing_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_25_Reading_and_Writing_4.Exe_25_Reading_and_Writing_4" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_25_Reading_and_Writing_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exe_26_Hendling_Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_26_Hending_Exception.Exe_26_Hendling_Exception" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_26_Hending_Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CalculatorTest.exercise3">
     <configuration name="Exe_27_Enums_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_27_Enums.Exe_27_Enums_6" />
       <module name="Exe_Recap_Java_11" />
@@ -97,39 +76,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_Rip_1.Main" />
+    <configuration name="CalculatorTest.exercise3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_Rip_1.*" />
+          <option name="PATTERN" value="it.Exe_28_Junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="it.Exe_28_Junit" />
+      <option name="MAIN_CLASS_NAME" value="it.Exe_28_Junit.CalculatorTest" />
+      <option name="METHOD_NAME" value="exercise3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_22_Sets_1.Sets" />
+    <configuration name="Exe_28_Junit_7" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_22_Sets_1.*" />
+          <option name="PATTERN" value="it.Exe_28_Junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="it.Exe_28_Junit" />
+      <option name="MAIN_CLASS_NAME" value="it.Exe_28_Junit.Exe_28_Junit_7" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exe_28_Junit_7.exercise2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Exe_28_Junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.Exe_28_Junit" />
+      <option name="MAIN_CLASS_NAME" value="it.Exe_28_Junit.Exe_28_Junit_7" />
+      <option name="METHOD_NAME" value="exercise2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exe_28_Junit_7.exercise3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Exe_28_Junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.Exe_28_Junit" />
+      <option name="MAIN_CLASS_NAME" value="it.Exe_28_Junit.Exe_28_Junit_7" />
+      <option name="METHOD_NAME" value="exercise3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalculatorTest.exercise3" />
+        <item itemvalue="TestNG.Exe_28_Junit_7.exercise2" />
+        <item itemvalue="TestNG.Exe_28_Junit_7.exercise3" />
+        <item itemvalue="TestNG.Exe_28_Junit_7" />
         <item itemvalue="Application.Exe_27_Enums_6" />
-        <item itemvalue="Application.Exe_25_Reading_and_Writing_4" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Exe_26_Hendling_Exception" />
-        <item itemvalue="Application.Sets" />
       </list>
     </recent_temporary>
   </component>
