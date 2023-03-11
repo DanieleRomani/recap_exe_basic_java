@@ -1,10 +1,6 @@
 package it.Exe_Rip_4;
 
 public class Auto {
-
-    /**
-     *
-     */
     private String marca;
     private String modello;
     private double prezzo;
