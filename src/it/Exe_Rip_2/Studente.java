@@ -36,7 +36,6 @@ public class Studente {
     }
 
     public Studente(){
-
     }
 
     public int getRegistrationNumber() {

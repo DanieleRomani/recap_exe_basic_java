@@ -2,7 +2,7 @@ package it.Exe_24_Collection_3;
 
 import java.util.*;
 
-public class Collection {
+public class Exe {
     public static void main(String[] args) {
         exercise1();
         exercise2();
@@ -40,14 +40,18 @@ public class Collection {
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-        // System.out.println(toSet(list));
-        // System.out.println(toSet(set));
+
+        Set<String> uniqueList = toSet(list);
+        System.out.println("Unique list: " + uniqueList);
+
+        Set<String> uniqueSet = toSet(set);
+        System.out.println("Unique set: " + uniqueSet);
     }
 
-    // Write your method for exercise 2 here
-    //public static Set<String> convertToSet(Collection<String> collection) {
-    //   return new HashSet<>(collection);
-    //}
+    //Write your method for exercise 2 here
+    private static Set<String> toSet(Collection<String> collection) {
+        return new HashSet<>(collection);
+    }
 
 
     /**

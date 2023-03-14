@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Try/Try.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Concessionaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_4/Concessionaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_24_Collection_3/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_24_Collection_3/Exe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/CorsoDiLaurea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_2/CorsoDiLaurea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_Rip_2/Studente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,20 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Try">
+  <component name="RunManager" selected="Application.Exe">
+    <configuration name="Exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Exe" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Exe_24_Collection_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_Rip_4.Main" />
       <module name="Exe_Recap_Java_11" />
@@ -121,31 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_28_Junit_7.exercise3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_28_Junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="it.Exe_28_Junit" />
-      <option name="MAIN_CLASS_NAME" value="it.Exe_28_Junit.Exe_28_Junit_7" />
-      <option name="METHOD_NAME" value="exercise3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe" />
         <item itemvalue="Application.Try" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.CalculatorTest.exercise3" />
         <item itemvalue="TestNG.Exe_28_Junit_7.exercise2" />
-        <item itemvalue="TestNG.Exe_28_Junit_7.exercise3" />
       </list>
     </recent_temporary>
   </component>
