@@ -36,7 +36,7 @@ public class Exe_25_Reading_and_Writing_4 {
             Files.deleteIfExists(MY_PATH);
             Files.createFile(MY_PATH);
             // Your code here
-           Files.writeString(MY_PATH, myString);
+            Files.writeString(MY_PATH, myString);
             System.out.println(Files.readString(MY_PATH));
         } catch (Exception exception) {
             System.err.println("There was an error!");
@@ -70,39 +70,35 @@ public class Exe_25_Reading_and_Writing_4 {
     private static void exercise3() throws IOException {
         System.out.println("\nExercise 3: ");
         // Write code here to read the file and return the number of lines "\n", string.split
-        List<String> lines = new ArrayList<String>(List.of(Files.readString(MY_PATH).split("\n")));
+        // Your code here
         try {
-            // Your code here
-            int count = 0;
-            for (String line : lines) {
-                count++;
-            }
-            System.out.println(lines);
-            System.out.println(count);
+            List<String> lines = Files.readAllLines(Paths.get(MY_PATH.toUri()));
+            int numLines = lines.size();
+            System.out.println("Number of lines: " + numLines);
 
-        } catch (Exception exception) {
+        } catch (IOException exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
             System.exit(0);
         }
     }
 
+
     /**
      * 4:
      * Write a method that reads a file and returns the number of words in the file
-     *
+     * <p>
      * Then deletes the previous file with Files.delete() use inside the try block
-     *
      */
     private static void exercise4() throws IOException {
         System.out.println("\nExercise 4: ");
-        List<String> words = new ArrayList<String>(List.of(Files.readString(MY_PATH).split("")));
         try {
-            int count = 0;
-            for (int i = 0; i <= MY_PATH.toString().length(); i++) { // <= for count my words
-                count ++;
-            }
-            System.out.println(count);
+            String content = Files.readString(MY_PATH);
+            String[] words = content.split("\\s+");
+            int count = words.length;
+
+            System.out.println("Number of words: " + count)
+;
             Files.delete(MY_PATH); // delete my file txt
             // Your code here
         } catch (Exception exception) {
@@ -122,12 +118,12 @@ public class Exe_25_Reading_and_Writing_4 {
 
         try {
             // Your code
-           if (!Files.exists(myDirectoryPath)) {                // se la directory non esiste crea la directory (Path)
-               Files.createDirectory(myDirectoryPath);
-           }
-           //Path myFilePath = myDirectoryPath.resolve("myfile.txt");           // resolve ricrea il percorso.
-           Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");    // (myFilePath)
-           System.out.println(Files.readString(PATH_IN_A_FOLDER));
+            if (!Files.exists(myDirectoryPath)) {                // se la directory non esiste crea la directory (Path)
+                Files.createDirectory(myDirectoryPath);
+            }
+            //Path myFilePath = myDirectoryPath.resolve("myfile.txt");           // resolve ricrea il percorso.
+            Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");    // (myFilePath)
+            System.out.println(Files.readString(PATH_IN_A_FOLDER));
 
         } catch (Exception exception) {
             System.err.println("There was an error!");
