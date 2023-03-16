@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Exe_29_Inheritance_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Exe_30_Abstract_classes_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Utente/Desktop/RistoranteTeam3Java11",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utente/Desktop/RistoranteTeam3Java11&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="it.Exe_28_Junit" />
@@ -60,7 +61,7 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_29_Inheritance_8">
+  <component name="RunManager" selected="Application.Exe_30_Abstract_classes_9">
     <configuration name="Exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Exe" />
       <module name="Exe_Recap_Java_11" />
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_Rip_4.Main" />
+    <configuration name="Exe_30_Abstract_classes_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_30_Abstract_Classes.Exe_30_Abstract_classes_9" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_Rip_4.*" />
+          <option name="PATTERN" value="it.Exe_30_Abstract_Classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_30_Abstract_classes_9" />
         <item itemvalue="Application.Exe_29_Inheritance_8" />
         <item itemvalue="Application.Exe_25_Reading_and_Writing_4" />
         <item itemvalue="Application.Exe" />
         <item itemvalue="Application.Try" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
