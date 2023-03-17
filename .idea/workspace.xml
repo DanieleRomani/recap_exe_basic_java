@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Exe_30_Abstract_classes_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Person_For_Exe2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Person_For_Exe_1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.Exe_31_Obj.Class_Method_Overriding_Equals_toString" />
       <recent name="it.Exe_28_Junit" />
       <recent name="it.Exe_27_Enums" />
       <recent name="it.exe18" />
@@ -61,7 +61,7 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_30_Abstract_classes_9">
+  <component name="RunManager" selected="Application.Exercise">
     <configuration name="Exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Exe" />
       <module name="Exe_Recap_Java_11" />
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Try.Try" />
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_31_Obj.Class_Method_Overriding_Equals_toString.Exercise" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Try.*" />
+          <option name="PATTERN" value="it.Exe_31_Obj.Class_Method_Overriding_Equals_toString.Person_For_Exe_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Exe_30_Abstract_classes_9" />
         <item itemvalue="Application.Exe_29_Inheritance_8" />
         <item itemvalue="Application.Exe_25_Reading_and_Writing_4" />
         <item itemvalue="Application.Exe" />
-        <item itemvalue="Application.Try" />
       </list>
     </recent_temporary>
   </component>

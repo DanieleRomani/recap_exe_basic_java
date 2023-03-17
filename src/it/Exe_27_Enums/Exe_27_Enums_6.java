@@ -128,7 +128,6 @@ public class Exe_27_Enums_6 {
             case RED:
                 System.out.println("GREEN");
                 break;
-
             default:
                 System.out.println("Invalid state");
         }
