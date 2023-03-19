@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Person_for_exe2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

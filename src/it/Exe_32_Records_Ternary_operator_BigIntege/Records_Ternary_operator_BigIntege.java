@@ -72,8 +72,8 @@ public class Records_Ternary_operator_BigIntege {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
-        BigInteger bigInteger = new BigInteger("1000000000000000000000000000000");
-        BigDecimal bigDecimal = new BigDecimal("1000000000.10000000000000000000");
+        BigInteger bigInteger = new BigInteger("100000000000000");
+        BigDecimal bigDecimal = new BigDecimal("1000000000.1000");
 
         BigInteger dividedBigInteger = bigInteger.divide(BigInteger.valueOf(3));
         BigDecimal dividedBigDecimal = bigDecimal.divide(BigDecimal.valueOf(Math.PI));
