@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Person_For_Exe2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exe_31_Obj/Class_Method_Overriding_Equals_toString/Person_For_Exe_1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Person_for_exe2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -61,26 +59,13 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise">
-    <configuration name="Exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_24_Collection_3.Exe" />
+  <component name="RunManager" selected="Application.Records_Ternary_operator_BigIntege">
+    <configuration name="Exe_27_Enums_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_27_Enums.Exe_27_Enums_6" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_24_Collection_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exe_25_Reading_and_Writing_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_25_Reading_and_Writing_4.Exe_25_Reading_and_Writing_4" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_25_Reading_and_Writing_4.*" />
+          <option name="PATTERN" value="it.Exe_27_Enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Records_Ternary_operator_BigIntege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Exe_32_Records_Ternary_operator_BigIntege.Person_for_exe2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Records_Ternary_operator_BigIntege" />
+        <item itemvalue="Application.Exe_27_Enums_6" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Exe_30_Abstract_classes_9" />
         <item itemvalue="Application.Exe_29_Inheritance_8" />
-        <item itemvalue="Application.Exe_25_Reading_and_Writing_4" />
-        <item itemvalue="Application.Exe" />
       </list>
     </recent_temporary>
   </component>
