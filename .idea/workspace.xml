@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/CarrelloSpesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Prodotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/ProductAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Cours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_1/Cours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/CorsoDiLaurea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_2/CorsoDiLaurea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/Exe_Rip2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_2/Exe_Rip2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_2/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_4/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Concessionaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_4/Concessionaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

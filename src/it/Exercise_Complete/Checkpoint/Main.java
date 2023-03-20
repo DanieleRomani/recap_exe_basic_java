@@ -15,9 +15,9 @@ public class Main {
         /**
          * Istanziare un oggetto CarrelloSpesa e aggiungere i prodotti creati
          */
-        carrello.aggiungiProdotto(p101);
-        carrello.aggiungiProdotto(p102);
-        carrello.aggiungiProdotto(p103);
+        carrello.aggiungiProdotto(101);
+        carrello.aggiungiProdotto(102);
+        carrello.aggiungiProdotto(103);
 
         System.out.println("Prodotti nel Carrello: ");
         carrello.stampaProdotti();
@@ -33,11 +33,12 @@ public class Main {
         /**
          * Creare un nuovo prodotto e aggiungerlo al carrello.
          */
-       Prodotto p104 = new Prodotto("104", "Zucchero", 0.50);
+        Prodotto p104 = new Prodotto("104", "Zucchero", 0.50);
         carrello.aggiungiProdotto(p104);
-        carrello.rimuoviProdotto(p103);
+        carrello.rimuoviProdotto("103");
 
         carrello.stampaProdotti();
 
+        System.out.println("Numero dei prodotti presenti nel carrello" + carrello.getNumeroProdotti() + "N")
     }
 }
