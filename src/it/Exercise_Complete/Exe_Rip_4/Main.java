@@ -1,6 +1,4 @@
-package it.Exe_Rip_4;
-
-import org.w3c.dom.ls.LSOutput;
+package it.Exercise_Complete.Exe_Rip_4;
 
 public class Main {
 public static void main(String[] args) {

@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/CarrelloSpesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Prodotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/ProductAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Cours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_1/Cours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/CorsoDiLaurea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_2/CorsoDiLaurea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/Exe_Rip2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_2/Exe_Rip2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_2/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_2/Studente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_4/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Concessionaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_4/Concessionaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_Rip_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +33,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,26 +76,13 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Records_Ternary_operator_BigIntege">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Exe_27_Enums_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_27_Enums.Exe_27_Enums_6" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it.Exe_27_Enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exe_29_Inheritance_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_29_Inheritance.Exe_29_Inheritance_8" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_29_Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Exercise_Complete.Checkpoint.Main" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Exercise_Complete.Checkpoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Records_Ternary_operator_BigIntege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" />
       <module name="Exe_Recap_Java_11" />
@@ -125,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Records_Ternary_operator_BigIntege" />
         <item itemvalue="Application.Exe_27_Enums_6" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Exe_30_Abstract_classes_9" />
-        <item itemvalue="Application.Exe_29_Inheritance_8" />
       </list>
     </recent_temporary>
   </component>
