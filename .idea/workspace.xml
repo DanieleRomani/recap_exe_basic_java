@@ -5,8 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f5f70b-f95d-4f19-92c0-eeb78689062c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_JAdvanced/Articolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_JAdvanced/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_JAdvanced/Negozio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_JAdvanced/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_JAdvanced/Sconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_JAdvanced/TipoProdotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_33_Streams/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Exercise_Complete/Checkpoint/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_20/Exe_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_20/Exe_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_20/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_20/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_21/Exe_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_21/Exe_21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_21/ExerciseLunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/Exe_21/ExerciseLunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_22_Sets_1/Sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_22_Sets_1/Sets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_23_Maps_2/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_23_Maps_2/Maps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_24_Collection_3/Exe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_24_Collection_3/Exe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_25_Reading_and_Writing_4/Exe_25_Reading_and_Writing_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_25_Reading_and_Writing_4/Exe_25_Reading_and_Writing_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_26_Hending_Exception/Exe_26_Hendling_Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_26_Hending_Exception/Exe_26_Hendling_Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_27_Enums/Exe_27_Enums_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_27_Enums/Exe_27_Enums_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_28_Junit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_28_Junit/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_28_Junit/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_28_Junit/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_29_Inheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_29_Inheritance/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_29_Inheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Exe_29_Inheritance_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_29_Inheritance/Exe_29_Inheritance_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_29_Inheritance/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_29_Inheritance/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Exe_30_Abstract_classes_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Exe_30_Abstract_classes_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_30_Abstract_Classes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_30_Abstract_Classes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Person_for_exe2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_32_Records_Ternary_operator_BigIntege/Person_for_exe2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/Java_Advance/Java_A/Exe_32_Records_Ternary_operator_BigIntege/Records_Ternary_operator_BigIntege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Items.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/ProductAbstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/ProductType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/Exercise_Complete/Exe_Rip_5/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/exe18/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/exe18/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/exe18/Exe_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/exe18/Exe_18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/exe18/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/exe18/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/exe19/Exe_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/exe19/Exe_19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/exe19/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/SIZE/exe19/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +61,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -35,19 +79,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utente/Desktop/RistoranteTeam3Java11&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/Utente/Desktop/recap_exe_basic_java/src/it/Exe_22_Sets_1",
+    "last_opened_file_path": "C:/Users/Utente/Desktop/RistoranteTeam3Java11",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="it.Exe_31_Obj.Class_Method_Overriding_Equals_toString" />
@@ -59,39 +104,13 @@
       <recent name="C:\Users\Utente\Desktop\recap_exe_basic_java\src\it" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Streams">
     <configuration name="Exe_27_Enums_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_27_Enums.Exe_27_Enums_6" />
+      <option name="MAIN_CLASS_NAME" value="it.Java_Advance.Java_A.Exe_27_Enums.Exe_27_Enums_6" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_27_Enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exe_30_Abstract_classes_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_30_Abstract_Classes.Exe_30_Abstract_classes_9" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_30_Abstract_Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_31_Obj.Class_Method_Overriding_Equals_toString.Exercise" />
-      <module name="Exe_Recap_Java_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.Exe_31_Obj.Class_Method_Overriding_Equals_toString.Person_For_Exe_1.*" />
+          <option name="PATTERN" value="it.Java_Advance.Java_A.Exe_27_Enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +132,37 @@
       </method>
     </configuration>
     <configuration name="Records_Ternary_operator_BigIntege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" />
+      <option name="MAIN_CLASS_NAME" value="it.Java_advanced.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" />
       <module name="Exe_Recap_Java_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.Exe_32_Records_Ternary_operator_BigIntege.Person_for_exe2.*" />
+          <option name="PATTERN" value="it.Java_advanced.Exe_32_Records_Ternary_operator_BigIntege.Person_for_exe2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Java_Advance.Java_A.Exe_33_Streams.Streams" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Java_Advance.Java_A.Exe_33_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="it.Java_Advance.Java_A.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Java_Advance.Java_A.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" />
+      <module name="Exe_Recap_Java_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.Java_Advance.Java_A.Exe_32_Records_Ternary_operator_BigIntege.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Streams" />
+        <item itemvalue="Application.it.Java_Advance.Java_A.Exe_32_Records_Ternary_operator_BigIntege.Records_Ternary_operator_BigIntege" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Records_Ternary_operator_BigIntege" />
         <item itemvalue="Application.Exe_27_Enums_6" />
-        <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.Exe_30_Abstract_classes_9" />
       </list>
     </recent_temporary>
   </component>
